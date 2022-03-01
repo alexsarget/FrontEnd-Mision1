@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2 Launch x</title>
+</head>
+<body>
+    <img src="space.png" alt="espacio" width="" height="350px">
+    <p>En la Pastelería "Misión Cake" estamos preparados para brindarte la maxima experiencia en sabores intergalacticos, 
+    con nuestra variedad de sabores y decoraciones podras arma el pastel perfecto para tu mision espacial,
+    te podras guiar a traves de nuestra plaforma interactiva la cual te permitira personalizar tu pastel a tu gusto </p>
+    <br>
+    <img src="astro.jpg" alt="espacio" width="150px" height="150px">
+    <p>Para iniciar tu mision necesitaremos realizar una serie de pasos:</p>
+    <hr>
+    <h1>Arma tu Pastel</h1>
+    <h2>Cuantos pasteles desea?</h2>
+    <label for="num">Numero de pasteles</label><br>
+    <input type="number" id="num" name="num"><br><br>
+    <h2>Cual sera el tamaño de tu pastel?</h2>
+    <label for="pastel">Tamaño</label>
+    <select id="pastel" name="Pastel">
+        <option value="Pequeño">Pequeño (10 cm)</option>
+        <option value="Mediano">Mediano (17 cm)</option>
+        <option value="Grande">Grande (22 cm)</option>
+        <option value="Extra grande">Extra grande (27 cm)</option>
+    </select>
+    <h2>Selecciona tu sabor</h2>
+    <p>En esta etapa podras escoger entre la variedad de sabores que tenemos para ti, 
+        da click en el menu de sabores para escoger el sabor de tu preferencia. </p>
+        <a href="menu_sabores.html" target="blank">Menu de Sabores</a>
+    <br>
+
+    <h2>Seleccion de Adornos</h2>
+    <p>Por que un pastel no puede ir sin decoraciones, no?</p> 
+    <p>En esta etapa podras elegir entre una o mas decoraciones para que personalices tu pastel galactico!</p>
+    <a href="menu_decoraciones.html" target="blank">Menu de decoraciones</a>
+    <hr>
+    
+    <h1>Permiteme cononcerte Astronauta!</h1>
+        <p>Como paso final permitenos algunos de tus datos para realizar el pedido de tu pastel.</p> 
+    
+        <form action="/accion.js" id="form1" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido"><br><br>
+            <label for="telefono">Telefono:</label>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+            <label for="fecha1">Fecha de nacimiento:</label>
+            <input type="date" id="fecha1" name="fecha1"><br>
+            <label for="correo1">Correo electronico:</label>
+            <input type="email" id="correo1" name="correo1"><br><br>
+            <label for="desc">Descripción:</label>
+            <input type="submit" id="desc" name="desc"><br><br>
+            
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </form>
+<footer></footer>
+</body>
+
+</html>
