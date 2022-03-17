@@ -1,0 +1,253 @@
+/*Contenido de Cabecera*/
+.Cabecera{
+    width: 1200px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    /*border: 1px solid black;*/
+}
+.titulo{
+    text-align: left;
+    font-family: system-ui;
+    font-weight: bolder;
+    padding: 15px;
+    padding-left: 100px;
+    display: flex;
+    color: #3757d5;
+}
+.nav{
+    position: absolute;
+    top:20px;
+    left:700px;
+}
+.nav li{
+    text-align: right;
+    padding: 15px;
+    display: inline-block;
+}
+.nav li a{
+    text-decoration: none;
+    font-family: system-ui;
+    font-weight: bolder;
+    color: #7a879d;
+}
+
+.bott{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    top: 30px;;
+    left:1300px;
+    border-radius: 5%;
+    background-color: #3757d5;
+ 
+}
+.bott p{
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    font-family: system-ui;
+    font-weight: bolder;
+}
+/*Contenido de Contenedor*/
+
+.cont{
+    display: flex;
+    justify-content:center;
+    /*align-items: center;*/
+    flex-wrap: wrap;
+}
+.desc{
+    width: 600px;
+    position: absolute;
+    top: 130px;
+    left: 250px;
+    font-size:20px ;
+    /*border: 1px solid black;*/
+}
+.desc h1{
+    font-family: system-ui;
+    color: #1f3e72;
+    font-weight: bolder;
+    text-align:left;
+    font-size: 55px;
+}
+.desc p{
+    font-family: system-ui;
+    color: #7a879d;
+    text-align: justify;
+    font-size: 23px;
+}
+.avisos{
+    display: flex;
+    justify-content: space-around;
+}
+.shield{
+    position: relative;
+    top: 60px;
+    left:0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.shield img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    padding-right: 20px;
+}
+.shield p{
+    font-size: small;
+    font-family: system-ui;
+    color: #274577;
+    font-weight: bolder;
+}
+
+.star{
+    position: relative;
+    top: 60px;
+    left:0px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.star img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    padding-right: 20px;
+}
+.star p{
+    font-size: small;
+    font-family: system-ui;
+    color: #274577;
+    font-weight: bolder;
+}
+
+.agend{
+    position: relative;
+    top: 120px;
+    left:0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.agend img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    padding-right: 20px;
+}
+.agend p{
+    font-size: small;
+    font-family: system-ui;
+    color: #274577;
+    font-weight: bolder;
+}
+
+/*Imagen*/
+.imagen img{
+    width: 500px;
+    height: 650px;
+    position: absolute;
+    top: 130px;
+    left:900px;
+    /*border: 1px solid black;*/
+}
+/*Boton summit*/
+.regis{
+    width: 1000px;
+    height: 100px;
+    /*border: 1px solid black;*/
+    position: absolute;
+    top: 620px;
+    left: 250px;
+    background-color: white;
+    opacity: 80%;
+    box-shadow: 10px 5px 5px rgb(136, 124, 124);
+}
+.loc{
+    position: absolute;
+    top: 25px;
+    left:20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.loc img{
+    width: 20px;
+    height: 20px;
+    padding-right: 20px;
+}
+
+.loc p{
+    font-size: small;
+    font-family: system-ui;
+    color: black;
+    font-weight: bolder;
+}
+
+.calen{
+    position: absolute;
+    top: 25px;
+    left: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.calen img{
+    width: 20px;
+    height: 20px;
+    padding-right: 20px;
+}
+
+.calen p{
+    font-size: small;
+    font-family: system-ui;
+    color: black;
+    font-weight: bolder;
+}
+
+
+.vac{
+    position: absolute;
+    top: 25px;
+    left: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.vac img{
+    width: 25px;
+    height: 25px;
+    padding-right: 20px;
+}
+
+.vac p{
+    font-size: small;
+    font-family: system-ui;
+    color: black;
+    font-weight: bolder;
+}
+
+.summit{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    top: 25px;;
+    left:800px;
+    border-radius: 5%;
+    background-color: #3757d5;
+    opacity: 100%;
+}
+.summit p{
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    font-family: system-ui;
+    font-weight: bolder;
+}
