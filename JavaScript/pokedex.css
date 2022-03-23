@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+
+.pokedex img{
+    height: 100%;
+    width: auto;
+    position: absolute;
+    left: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pokemon img{
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top:33%;
+    left: 30%;
+}
+
+.nombre input{
+    position: absolute;
+    top:85%;
+    left: 26%;
+    background: #f4ea5e;
+    font-family: system-ui;
+    font-weight: bolder;
+    border: 0;
+}
+
+.det p{
+    width: 180px;
+    height: 80px;
+    position: absolute;
+    border: 1px solid black;
+    top: 50%;
+    left: 60%;
+}
+
+.buscar button{
+    height: 50px;
+    width: 50px;
+    font-family: system-ui;
+    position: absolute;
+    top: 72%;
+    left: 25.5%;
+    border-radius: 50%;
+    background: #3f9fd8;
+    
+    
+}
